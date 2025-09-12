@@ -1,6 +1,24 @@
+body {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;;
+}
+
 h1 {
     font-weight:900;
+    font-size: 50px;
 }
+
+p {
+    font-size: 20px;
+}
+
+#leftparag h2 {
+    margin-top: -20px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
 #gelopix {
     width: 400px;
     height: 600px;
@@ -16,5 +34,22 @@ h1 {
 #gradpic {
     float: right;
     margin-top: 5%;
-    margin-right: 400px;
+    margin-right: 200px;
+}
+
+#landing-page {
+    grid-row: 1;
+}
+
+#intro-page {
+    grid-row: 2;
+    margin-top: 100px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+#intro-page p {
+    max-width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
 }
