@@ -9,6 +9,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 25px;
+}
+
 p {
     font-size: 20px;
 }
@@ -16,7 +20,6 @@ p {
 #leftparag h2 {
     margin-top: -20px;
     margin-bottom: 40px;
-    font-size: 25px;
 }
 
 #gelopix {
@@ -60,4 +63,21 @@ p {
     grid-row: 3;
     text-align: center;
     margin-right: 40px;
+}
+
+#cyberskills-page h2 {
+    text-align: left;
+    margin-left: 160px;
+}
+
+#cyber-list {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 160px;
+}
+
+#dev-list {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 160px;
 }
